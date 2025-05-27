@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    
+    background-image: url(./image\ 1\ \(2\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    padding: 30px 52px ;
+    
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.but-container{
+    display: flex;
+    justify-content: center;
+}
+.mainbut{
+    width: 604;
+    height: 103;
+    top: 243px;
+    left: 443px;
+    border-radius: 50px;
+    background-color: #FFC611;
+    border: 11px solid #5A5555;
+    padding: 30px 40px;
+    font-weight: 700;
+    margin: 177px 0px 131px 0px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 35px;
+}
+.shadow{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 4px 4px black;
+}
+.texy{
+
+    font-size: 20px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.but{
+    color: white;
+    width: 243;
+    height: 50;
+    top: 30px;
+    left: 170px;
+    border-radius: 10px;
+    background: #009FF5B5;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    gap: 20px;
+
+}
+.shadow-black{
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #0047FF ;
+}
+.shadow-yellow{
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0px 4px 4px #FFC200 ;
+}
+.img-box{
+    width: 361px;
+    background-color: #1F1F1F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 7px 12px;
+    top: 478px;
+}
+h2{
+    margin: 15px 0px 12px 0px;
+}
+.img{
+    
+    width: 361px;
+    height: 353px;
+}
+.main-content{
+    padding: 30px 52px;
+    background-color: black;
+    color: white;
+}
+.center{
+    font-size: 35px;
+    color: #5A5555;
+    text-align: center;
+    text-shadow: 1px 3px 3px white;
+    
+}
+.content button{
+    box-shadow: 0px 7px 12px white;
+}
+.box-text{
+    font-size: 27px;
+}
+.box{
+   display: flex;
+   gap: 27px; 
+   margin-top: 122px;
+}
+.grey-button{
+    margin-top: 100px;
+    padding: 14px 71px;
+    background-color: #FFC611;
+    font-weight: 700;
+    font-size: 27px;
+    border: none;
+}
+.grey-button:hover{
+    background-color: #5A5555;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    padding: 30px 52px;
+    background-color: #FFC611;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 158px;
+}
+.lg{
+    width: 101px;
+    height: 55px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+
+}
+.logos img{
+    width: 40px;
+    height: 40px;
+}
